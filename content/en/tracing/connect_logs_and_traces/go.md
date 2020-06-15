@@ -17,11 +17,11 @@ further_reading:
       text: 'Correlate request logs with traces automatically'
 ---
 
-## Automatic Trace ID injection
+## Automatically Inject Trace and Span IDs
 
 Coming Soon. Reach out to [the Datadog support team][1] to learn more.
 
-## Manual Trace ID injection
+## Manually Inject Trace and Span IDs
 
 The Go tracer API allows printing span information along with log statements using the `%v` format specifier:
 
@@ -52,6 +52,6 @@ The above example illustrates how to use the span's context in the standard libr
 
 {{< partial name="whats-next/whats-next.html" >}}
 
-[1]: /help
-[2]: /logs/log_collection/go/#configure-your-logger
-[3]: /tracing/faq/why-cant-i-see-my-correlated-logs-in-the-trace-id-panel/?tab=custom
+[1]: /help/
+[2]: /tracing/visualization/#trace
+[3]: /tracing/visualization/#spans
